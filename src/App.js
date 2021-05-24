@@ -24,11 +24,17 @@ function Page() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Welcome />
+        <button type="button" onClick={() => changeLanguage("en")}>
+          en
+        </button>
         <button type="button" onClick={() => changeLanguage("de")}>
           de
         </button>
-        <button type="button" onClick={() => changeLanguage("en")}>
-          en
+        <button type="button" onClick={() => changeLanguage("cn")}>
+          cn
+        </button>
+        <button type="button" onClick={() => changeLanguage("ru")}>
+          ru
         </button>
         <a
           className="App-link"
